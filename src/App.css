@@ -5,3 +5,32 @@
 .App {
   text-align: center;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #090979, #00d4ff);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: #090979;
+  border-radius: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.chart {
+  text-align: center;
+}
